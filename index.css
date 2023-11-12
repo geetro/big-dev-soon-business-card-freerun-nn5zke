@@ -1,4 +1,29 @@
 /* This is an example CSS file, feel free to remove/edit it anytime */
+
+.container {
+  position: absolute;
+  top: 50%;
+  margin-top: -225px;  /* Half of #content height */
+  left: 0;
+  width: 100%;
+}
+
+.card {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 450px;
+  border: 1px solid #000000;  
+  background-color: aliceblue;
+  border-radius: 16px;
+  box-shadow: #17181a7a 6px 2px 16px 0px, #ad2c2ccc -6px -2px 16px 0px;
+  
+}
+
+/*.text {
+
+} */
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -17,3 +42,6 @@
 .footer span {
   font-size: 14px;
 }
+
+
+
