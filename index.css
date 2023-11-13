@@ -20,9 +20,27 @@
   
 }
 
-/*.text {
+/*.text {} */
 
-} */
+.contact_box {  
+  background-color: rgb(12, 92, 167);
+  width: 34%;
+  height: 275px;
+  float: left;
+  padding: 15px;
+  border-radius: 14px 0 16px 0;
+}
+
+.icon_box {  
+  background-color: rgb(12, 92, 167);
+  width: 30%;
+  height: 125px;
+  float: left;
+  padding: 2px;
+  border-radius: 0 16px 0 14px;
+  position: fixed;
+  bottom: 25.2%;
+}
 
 .footer {
   position: absolute;
