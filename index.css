@@ -4,7 +4,7 @@
   position: absolute;
   top: 50%;
   margin-top: -225px;  /* Half of #content height */
-  left: 0;
+  left: 10%;
   width: 100%;
 }
 
@@ -20,26 +20,53 @@
   
 }
 
-/*.text {} */
-
-.contact_box {  
+.contact_box { 
+  box-sizing: content-box; 
   background-color: rgb(12, 92, 167);
-  width: 34%;
-  height: 275px;
+  width: 33%;
+  height: 335px;
   float: left;
-  padding: 15px;
-  border-radius: 14px 0 16px 0;
+  padding: 0px;
+  border-radius: 14px 0 16px 0;  
 }
 
-.icon_box {  
+.contact_box ul.icon_phone {
+  list-style-type: none;
+  font: italic .6rem "Georgia", serif, bold;
+  display: block;
+  height: 300px;
+  position: relative;
+  top: 230px;
+  line-height: 16px;
+}
+
+.contact_box ul.icon_email {
+  list-style-type: none;
+  font: italic .6rem "Georgia", serif, bold;
+  display: block;
+  height: 300px;
+  position: relative;
+  bottom: 30px;
+  line-height: 16px;
+}
+
+.icon_box { 
+  box-sizing: content-box; 
   background-color: rgb(12, 92, 167);
-  width: 30%;
-  height: 125px;
+  width: 33%;
+  height: 100px;
   float: left;
-  padding: 2px;
+  padding: 0;
   border-radius: 0 16px 0 14px;
-  position: fixed;
-  bottom: 25.2%;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+}
+
+.icon_box ul {
+  list-style-type: none;
+  font: italic .6rem "Georgia", serif, bold; 
+  line-height: 20px; 
 }
 
 .footer {
@@ -60,6 +87,8 @@
 .footer span {
   font-size: 14px;
 }
+
+
 
 
 
